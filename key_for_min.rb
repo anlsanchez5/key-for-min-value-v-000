@@ -13,8 +13,8 @@ def key_for_min_value(names_hash)
 #iterate over key&values array
     names_a.each do |ele|
       if ele[1] < d_value
-        d_value = ele[0]
-        d_key = ele[1]
+        d_value = ele[1]
+        d_key = ele[0]
       end
       end
     return d_key
