@@ -20,5 +20,5 @@ def key_for_min_value(names_hash)
   end
   
     return d_key
-    
+
 end
