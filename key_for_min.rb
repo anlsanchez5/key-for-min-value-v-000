@@ -1,7 +1,7 @@
 
 def key_for_min_value(names_hash)
 #return nil if hash is empty
-  if hash.empty?
+  if names_hash.empty?
     nil
 #run through iterations to find lowest key value
   else
