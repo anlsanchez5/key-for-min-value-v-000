@@ -16,9 +16,8 @@ def key_for_min_value(names_hash)
         d_value = ele[0]
         d_key = ele[1]
       end
-    end
-  end
-  
+      end
     return d_key
+  end
 
 end
