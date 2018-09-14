@@ -8,7 +8,7 @@ def key_for_min_value(names_hash)
 #convert hash to array
     names_a = names_hash.to_a
 #set default values for key and value
-    d_value = 10000
+    d_value = 1000
     d_key = 0
 #iterate over key&values array
     names_a.each do |ele|
